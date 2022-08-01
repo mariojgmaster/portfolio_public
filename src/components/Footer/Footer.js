@@ -31,11 +31,8 @@ function Footer() {
     return (
         <div className="footer" style={{backgroundColor: theme.secondary}}>
             <p style={{color: theme.tertiary}}>
-                Made with  
-                <span style={{color: theme.primary, margin: '0 0.5rem -1rem 0.5rem'}}>
-                    ❤
-                </span>
-                 by {shortname(headerData.name)}
+                Copyright © 2022 | {shortname(headerData.name)}
+                <span style={{color: theme.primary, margin: '0 0.5rem -1rem 0.5rem'}}>❤</span>
             </p>
         </div>
     )
